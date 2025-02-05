@@ -6,7 +6,7 @@ package com.mycompany.javalearn;
 
 /**
  *
- * @author jorge Chaparro
+ * @author jorge Chaparro Núñez
  * @Matrícula 14446
  * @Fecha 4/2/25
  */
