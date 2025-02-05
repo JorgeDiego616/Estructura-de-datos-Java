@@ -15,7 +15,12 @@ import java.util.Random;
 
 public class Piedrapapeltijera {
     // Funcion que simula el juego de priedra papel y tijera
-    // @Parametro gameChoices: Para las opciones a elegir del juego 
+    // @Parametro gameChoices: Para las opciones a elegir del juego
+    // @Parametro random: Para hacer la eleccion random
+    // @Parametro eleccionJugador1: La eleccion del jugador 1
+    // @Parametro eleccionJugador2: La eleccion del jugsdor 2
+    // @Parametro eleccion1: Eleccion del jugador 1 en string
+    // @Parametro eleccion2: Eleccion del jugador 2 en string
     public void game() {
         String[] gameChoices = {"Piedra", "Papel", "Tijera"};
         Random random = new Random();
