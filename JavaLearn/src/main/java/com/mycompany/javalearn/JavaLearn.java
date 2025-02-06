@@ -15,6 +15,10 @@ public class JavaLearn {
     
         Piedrapapeltijera gameObject = new Piedrapapeltijera();
         gameObject.game();
+        
+        UserData userDataObject = new UserData();
+        String fullName = userDataObject.fullName("Jorge", "Chaparro");
+        System.out.println(fullName);
     }
  
 }
