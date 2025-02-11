@@ -36,7 +36,7 @@ public class JavaLearn {
         System.out.println("Calificacion final del semestre: " + finalGrade);
         
         // Verificar el estatus de asistencia
-        String attendanceStatus = student.checkFailureByAbsences(64, 7);
+        String attendanceStatus = student.checkFailureByAbsences(64, 6);
         System.out.println(attendanceStatus);
     }
  

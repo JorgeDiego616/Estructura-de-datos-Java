@@ -10,37 +10,46 @@ package com.mycompany.javalearn;
  * @Matricula 14446
  * @Fecha 10/2/25
  */
-
-// Clase que cumple con los 
+// Clase para calcular el rendimiento de el alumno.
 public class StudentGrades {
+
+    // Calcula la cali del parcial.
+    // @Parametro caliPartialExams: Porcentage de la calificaion parcial
+    // @Parametro caliHomeworks: Porcentage de tareas y trabajos
+    // @Parametro finalCali: Calificacion final
     public int calculatePartialGrade(int examScore, int homeworkScore) {
-        double caliExamenesParcial = examScore * 0.7;
-        double caliTrabajosTareas = homeworkScore * 0.3;
-        
-        double caliFinal = caliExamenesParcial + caliTrabajosTareas;
-        
+        double caliPartialExams = examScore * 0.7;
+        double caliHomeworks = homeworkScore * 0.3;
+
+        double finalCali = caliPartialExams + caliHomeworks;
+
         //String mensaje = "La calificacion final es: " + caliFinal;
-        
-        return (int)caliFinal;
-    
+        return (int) finalCali;
     }
     
+    // Calcula la calificacion final de todo
+    // @Parametro caliAllExams: Porcentage de la calificacion de los 3 parciales juntos
+    // @Parametro caliFinalExams: Porcentage de la calificacion final
+    // @Parametro caliFinalSemester: Calificacion de todo el semestre
     public int calculateFinalGrade(int firstPartial, int secondPartial, int thirdPartial, int finalExam) {
-        double caliExamenes = ((firstPartial + secondPartial + thirdPartial) / 3) * 0.5;
-        double caliExamenFinal = finalExam * 0.5;
-        
-        int caliFinalSemestre = (int)caliExamenes + (int)caliExamenFinal;
-        
-        return caliFinalSemestre;
-        
+        double caliAllExams = ((firstPartial + secondPartial + thirdPartial) / 3) * 0.5;
+        double califinalExams = finalExam * 0.5;
+
+        int caliFinalSemester = (int) caliAllExams + (int) califinalExams;
+
+        return caliFinalSemester;
     }
     
+    // Clase para quecar las inasistencias del alumno
+    // @Parametro nonAttendance: Inasistencias de alumno.
     public String checkFailureByAbsences(int totalHours, int absences) {
-        double inasistencias = totalHours * .1;
-        if (absences < inasistencias) {
+        double nonAttendance = (double)totalHours * .1;
+        //System.out.println(nonAttendance);
+        if (nonAttendance > absences) {
+            return "Cumples con las asistencias minimas";
+            //return "Estas reprobado por faltas";
+        } else {
             return "Estas reprobado por faltas";
         }
-        
-        return "Cumples con las asistencias minimas";
     }
 }
