@@ -26,7 +26,7 @@ public class StudentGrades {
         //String mensaje = "La calificacion final es: " + caliFinal;
         return (int) finalCali;
     }
-    
+
     // Calcula la calificacion final de todo
     // @Parametro caliAllExams: Porcentage de la calificacion de los 3 parciales juntos
     // @Parametro caliFinalExams: Porcentage de la calificacion final
@@ -39,15 +39,14 @@ public class StudentGrades {
 
         return caliFinalSemester;
     }
-    
+
     // Clase para quecar las inasistencias del alumno
     // @Parametro nonAttendance: Inasistencias de alumno.
     public String checkFailureByAbsences(int totalHours, int absences) {
-        double nonAttendance = (double)totalHours * .1;
-        //System.out.println(nonAttendance);
+        double nonAttendance = (double) totalHours * .1;
+        
         if (nonAttendance > absences) {
             return "Cumples con las asistencias minimas";
-            //return "Estas reprobado por faltas";
         } else {
             return "Estas reprobado por faltas";
         }
