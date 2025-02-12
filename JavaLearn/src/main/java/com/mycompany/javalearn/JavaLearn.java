@@ -3,6 +3,8 @@
  */
 package com.mycompany.javalearn;
 
+import java.util.Scanner;
+
 /**
  *
  * @author jorge
@@ -35,6 +37,33 @@ public class JavaLearn {
         // Verificar el estatus de asistencia
         String attendanceStatus = student.checkFailureByAbsences(64, 6);
         System.out.println(attendanceStatus);
+        
+        
+        Scanner objScanner = new Scanner(System.in);
+        
+        
+        //System.out.print("Ingresa la base del triangulo: ");
+        //double base = objScanner.nextDouble();
+        
+        //System.out.print("Ingresa la altura del tringulo: ");
+        //double height = objScanner.nextDouble();
+        
+        //TriangleArea objTriangle = new TriangleArea();
+        //double area = objTriangle.calculateArea(base, height);
+        
+        //System.out.println(String.format("El area del tringulo con base %.2f y altura %.2f es: %.2f", base, height, area));
+        //objScanner.close();
+        
+        
+        System.out.print("Ingresa el area del circulo: ");
+        double radio = objScanner.nextDouble();
+        
+        CircleArea objCircle = new CircleArea();
+        double areaC = objCircle.calculateArea(radio);
+        
+        System.out.println(String.format("El area del circulo con radio %.2f es: %.2f", radio, areaC));
+        objScanner.close();
+        
     }
 
 }
