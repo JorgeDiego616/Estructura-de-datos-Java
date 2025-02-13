@@ -39,9 +39,11 @@ public class JavaLearn {
         System.out.println(attendanceStatus);
         
         
+        // Uso de la clase scanner
         Scanner objScanner = new Scanner(System.in);
         
         
+        // Obtener variables para la clase TriangleArea y correr el programa
         //System.out.print("Ingresa la base del triangulo: ");
         //double base = objScanner.nextDouble();
         
@@ -55,14 +57,24 @@ public class JavaLearn {
         //objScanner.close();
         
         
-        System.out.print("Ingresa el area del circulo: ");
-        double radio = objScanner.nextDouble();
+        // Obtener variables para la clase CircleArea y correr el programa
+        //System.out.print("Ingresa el area del circulo: ");
+        //double radio = objScanner.nextDouble();
         
-        CircleArea objCircle = new CircleArea();
-        double areaC = objCircle.calculateArea(radio);
+        //CircleArea objCircle = new CircleArea();
+        //double areaC = objCircle.calculateArea(radio);
         
-        System.out.println(String.format("El area del circulo con radio %.2f es: %.2f", radio, areaC));
-        objScanner.close();
+        //System.out.println(String.format("El area del circulo con radio %.2f es: %.2f", radio, areaC));
+        //objScanner.close();
+        
+        
+        // Uso de la clase ArrayListExample
+        ArrayListExample objArrayListEx = new ArrayListExample();
+        
+        objArrayListEx.addCars("Toyota");
+        objArrayListEx.removeCar(0);
+        System.out.println(objArrayListEx.returnSize());
+        objArrayListEx.removeAll();
         
     }
 
