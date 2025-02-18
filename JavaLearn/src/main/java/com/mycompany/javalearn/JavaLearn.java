@@ -24,23 +24,23 @@ public class JavaLearn {
         //UserData userDataObject = new UserData();
         //String fullName = userDataObject.fullName("Jorge", "Chaparro");
         //System.out.println(fullName);
-        StudentGrades student = new StudentGrades();
+        //StudentGrades student = new StudentGrades();
 
         // Calcular la calificación del parcial
-        int partialGrade = student.calculatePartialGrade(85, 90);
-        System.out.println("Calificacion del parcial: " + partialGrade);
+        //int partialGrade = student.calculatePartialGrade(85, 90);
+        //System.out.println("Calificacion del parcial: " + partialGrade);
 
         // Calcular la calificación final del semestre
-        int finalGrade = student.calculateFinalGrade(80, 75, 90, 85);
-        System.out.println("Calificacion final del semestre: " + finalGrade);
+        //int finalGrade = student.calculateFinalGrade(80, 75, 90, 85);
+        //System.out.println("Calificacion final del semestre: " + finalGrade);
 
         // Verificar el estatus de asistencia
-        String attendanceStatus = student.checkFailureByAbsences(64, 6);
-        System.out.println(attendanceStatus);
+        //String attendanceStatus = student.checkFailureByAbsences(64, 6);
+        //System.out.println(attendanceStatus);
         
         
         // Uso de la clase scanner
-        Scanner objScanner = new Scanner(System.in);
+        //Scanner objScanner = new Scanner(System.in);
         
         
         // Obtener variables para la clase TriangleArea y correr el programa
@@ -69,13 +69,22 @@ public class JavaLearn {
         
         
         // Uso de la clase ArrayListExample
-        ArrayListExample objArrayListEx = new ArrayListExample();
+        //ArrayListExample objArrayListEx = new ArrayListExample();
         
-        objArrayListEx.addCars("Toyota");
-        objArrayListEx.removeCar(0);
-        System.out.println(objArrayListEx.returnSize());
-        objArrayListEx.removeAll();
+        //objArrayListEx.addCars("Toyota");
+        //objArrayListEx.removeCar(0);
+        //System.out.println(objArrayListEx.returnSize());
+        //objArrayListEx.removeAll();
         
+        
+        //MultidimensionalArray objMultidimensional = new MultidimensionalArray();
+        
+        //objMultidimensional.printbidimensionalArray();
+        
+        
+        
+        NonParCero objNonParCero = new NonParCero();
+        objNonParCero.calculate();
     }
 
 }
