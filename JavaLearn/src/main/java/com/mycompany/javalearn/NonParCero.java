@@ -7,8 +7,18 @@ package com.mycompany.javalearn;
 /**
  *
  * @author jorge
+ * @Matricula 14446
+ * @Fecha 10/2/25
  */
+
+// Clase para saber de si una lista cuales son par, none y cero
 public class NonParCero {
+    
+    // Funcion para saber si hay none o pares o ceros en una lista
+    // @Parametro numeros: La lista de numeros
+    // @Parametro par: Para los pares
+    // @Parametro none: Para los nones
+    // @Parametro cero: Para los ceros
     public void calculate() {
         int[] numeros = {
             
@@ -22,13 +32,13 @@ public class NonParCero {
         int par = 0;
         int none = 0;
         int cero = 0;
-        for (int i = 0; i < numeros.length; i++) {
+        for (int i = 0; i < numeros.length; i++) {  // (int number : numeros)
         if(numeros[i] == 0) {
-            cero += 1;
+            cero += 1; //cero++
         } else if ((numeros[i] % 2) == 0) {
-            par += 1;
+            par += 1; //par++
         } else {
-            none += 1;
+            none += 1; //none++
         }
         }
     

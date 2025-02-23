@@ -81,10 +81,23 @@ public class JavaLearn {
         
         //objMultidimensional.printbidimensionalArray();
         
+
+        
+        //NonParCero objNonParCero = new NonParCero();
+        //objNonParCero.calculate();
         
         
-        NonParCero objNonParCero = new NonParCero();
-        objNonParCero.calculate();
+        //Excercise2 objExcercise2 = new Excercise2();
+        //objExcercise2.calculateIVASales();
+        
+        //Excercise3 objExcercise3 = new Excercise3();
+        //objExcercise3.sumaValoresArregloBidimensional();
+        
+        Excercise4 objExcercise4 = new Excercise4();
+        objExcercise4.calificacionParcial(87, 90);
+        
+        Excercise5 objExcercise5 = new Excercise5();
+        objExcercise5.aprovadosReprovados();
     }
 
 }
