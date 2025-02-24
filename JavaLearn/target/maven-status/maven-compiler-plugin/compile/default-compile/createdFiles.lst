@@ -1,4 +1,5 @@
 com\mycompany\javalearn\JavaLearn.class
+com\mycompany\javalearn\Scan.class
 com\mycompany\javalearn\StudentGrades.class
 com\mycompany\javalearn\Excercise5.class
 com\mycompany\javalearn\Excercise3.class
@@ -8,6 +9,7 @@ com\mycompany\javalearn\Excercise4.class
 com\mycompany\javalearn\MultidimensionalArray.class
 com\mycompany\javalearn\NonParCero.class
 com\mycompany\javalearn\TriangleArea.class
+com\mycompany\javalearn\Excercise1.class
 com\mycompany\javalearn\Piedrapapeltijera.class
 com\mycompany\javalearn\Arreglos.class
 com\mycompany\javalearn\CircleArea.class

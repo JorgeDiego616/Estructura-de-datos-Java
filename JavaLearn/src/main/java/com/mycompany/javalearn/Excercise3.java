@@ -7,12 +7,21 @@ package com.mycompany.javalearn;
 /**
  *
  * @author jorge
+ * @Matricula 14446
+ * @Fecha 23/2/25
  */
+
+// La clase suma los valores de un arreglo de 3 listas
 public class Excercise3 {
+    
+    // Suma los valores de cada lista
+    // @Parametro matriz: El arreglo Bidimensional
+    // @Parametro total: Total de la suma
     public void sumaValoresArregloBidimensional() {
         int[][] matriz = {
             {10,30,25,4},
-            {12,21,995,2}
+            {12,21,995,2},
+            {23,11,5,9}
         };
         
         int total = 0;

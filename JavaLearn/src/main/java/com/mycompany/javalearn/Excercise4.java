@@ -7,8 +7,17 @@ package com.mycompany.javalearn;
 /**
  *
  * @author jorge
+ * @Matricula 14446
+ * @Fecha 23/2/25
  */
+
+// La clase saca la calificacion de el alumno
 public class Excercise4 {
+    
+    // La clase suma lo del examen y las tareas
+    // @Parametro examScore: la calificacion del examen
+    // @Parametro homeworksScore: la calificacion de los trabajos
+    // @Parametro finalGrade: El total de la calificacion del alumno
     public void calificacionParcial(int exam, int homework) {
         double examScore = (double)exam * 0.7;
         double homeworksScore = (double)homework * 0.3;
