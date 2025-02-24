@@ -111,9 +111,19 @@ public class JavaLearn {
         //Scan objscan = new Scan();
         //objscan.scannerThings();
         
+        //Scanner sc = new Scanner(System.in);
+   
+        //System.out.print("Calificación del examen: ");
+        //int examScore = sc.nextInt();
+        //System.out.print("Calificación de las tareas: ");
+        //int homeWork = sc.nextInt();
+        //GradeCalculationPartial objGradeCalculationPartial = new GradeCalculationPartial();
+        //objGradeCalculationPartial.partialCalification(examScore, homeWork);
         
-        GradeCalculationPartial objGradeCalculationPartial = new GradeCalculationPartial();
-        objGradeCalculationPartial.partialCalification(9, 10);
+        
+        SalesWithDiscount objSalesWithDiscount = new SalesWithDiscount();
+        System.out.println("La suma total de ventas con el 10% de descuento es: " + objSalesWithDiscount.totalWithDiscount());
+        //objSalesWithDiscount.totalWithDiscount();
     }
 
 }
