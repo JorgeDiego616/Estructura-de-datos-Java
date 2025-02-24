@@ -16,5 +16,6 @@ public class Scan {
         System.out.println("Dame tu edad: ");
         String edad = sc.nextLine();
         System.out.println("Tu edad es de: " + edad);
+        //System.out.println(String.format("Tu edad es de: %d", edad));
     }
 }

@@ -99,17 +99,21 @@ public class JavaLearn {
         //Excercise5 objExcercise5 = new Excercise5();
         //objExcercise5.aprovadosReprovados();
         
-        Excercise1 objExcercise1 = new Excercise1();
-        objExcercise1.arrayListAdd("Python", "Java", "Cobol", "C++", "C#");
-        objExcercise1.arrayListRemove(3);
-        objExcercise1.arrayListEdit(3, "C# actualmente");
-        objExcercise1.arrayListLength();
-        objExcercise1.arrayListRemoveAll();
-        objExcercise1.arrayListLength();
+        //Excercise1 objExcercise1 = new Excercise1();
+        //objExcercise1.arrayListAdd("Python", "Java", "Cobol", "C++", "C#");
+        //objExcercise1.arrayListRemove(3);
+        //objExcercise1.arrayListEdit(3, "C# actualmente");
+        //objExcercise1.arrayListLength();
+        //objExcercise1.arrayListRemoveAll();
+        //objExcercise1.arrayListLength();
         
         
-        Scan objscan = new Scan();
-        objscan.scannerThings();
+        //Scan objscan = new Scan();
+        //objscan.scannerThings();
+        
+        
+        GradeCalculationPartial objGradeCalculationPartial = new GradeCalculationPartial();
+        objGradeCalculationPartial.partialCalification(9, 10);
     }
 
 }
