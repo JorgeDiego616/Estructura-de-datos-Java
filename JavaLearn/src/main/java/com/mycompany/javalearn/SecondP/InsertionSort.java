@@ -10,26 +10,31 @@ package com.mycompany.javalearn.SecondP;
  */
 public class InsertionSort {
     
-    int[] array = {8,6,1,2,5};
+    int[] array = {10,9,8,7,6,5,4,3,2,1};
     public void sort() {
+        int numOpe = 0;
         int length = array.length;
         for(int i = 1;i < length; i++) {
             int key = array[i];
             int j = i-1;
+            //numOpe += 1;
             
             while (j >= 0 && array[j] > key) {
                 array[j + 1] = array[j];
                 j--;
+                numOpe += 1;
             }
             array[j + 1] = key;
+            //numOpe += 1;
             //System.out.println(array);
         }
         
         for (int i = 0; i < array.length; i++) {
             int j = array[i];
             System.out.println(j);
-            
+            //System.out.println("Operaciones: " + numOpe); 
         }
-        System.out.println("Final" + array);
+        System.out.println("Operaciones: " + numOpe);
+        //System.out.println("Final" + array);
     }
 }

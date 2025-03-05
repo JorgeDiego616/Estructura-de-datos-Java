@@ -11,7 +11,13 @@ package com.mycompany.javalearn.SecondP;
 public class Mainn {
     public static void main(String[] args) {
     
-        InsertionSort objInsertionSort = new InsertionSort();
-        objInsertionSort.sort();
+        //InsertionSort objInsertionSort = new InsertionSort();
+        //objInsertionSort.sort();
+        
+        
+        int[] arr = {10,9,8,7,6,5,4,3,2,1};
+        SelectionSort objSelectionSort = new SelectionSort();
+        objSelectionSort.selectionSort(arr);
+        System.out.println("Numero de operaciones: " + objSelectionSort.selectionSort(arr));
     }
 }
