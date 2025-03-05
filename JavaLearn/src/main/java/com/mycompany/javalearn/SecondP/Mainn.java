@@ -16,8 +16,13 @@ public class Mainn {
         
         
         int[] arr = {10,9,8,7,6,5,4,3,2,1};
-        SelectionSort objSelectionSort = new SelectionSort();
-        objSelectionSort.selectionSort(arr);
-        System.out.println("Numero de operaciones: " + objSelectionSort.selectionSort(arr));
+        
+        //SelectionSort objSelectionSort = new SelectionSort();
+        //objSelectionSort.selectionSort(arr);
+        //System.out.println("Numero de operaciones: " + objSelectionSort.selectionSort(arr));
+        
+        BubbleSort objBubbleSort = new BubbleSort();
+        objBubbleSort.bubbleSort(arr);
+        System.out.println("El numero de operaciones es: " + objBubbleSort.bubbleSort(arr));
     }
 }
