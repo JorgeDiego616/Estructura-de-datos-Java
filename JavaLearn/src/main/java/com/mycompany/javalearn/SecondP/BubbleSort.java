@@ -7,9 +7,19 @@ package com.mycompany.javalearn.SecondP;
 /**
  *
  * @author jorge
+ * @Matricula 14446
+ * @Fecha 6/3/25
  */
-public class BubbleSort {
 
+// Notacion O(n^2) => T(n) = (n(n - 1)) / 2
+
+// Clase que ordena un arreglo de menor a mayor usando el estilo Bubble sort: Analiza el arreglo dividiendo el contenido en pares y por pares ve cual es el mas pequeño y lo posiciones y asi se va.
+public class BubbleSort {
+    
+    // Funcion que ordena un arreglo en orden
+    // @Parametro n: Longitud de del arreglo
+    // @Parametro comparisons: numero de operaciones
+    // @Parametro temp: Para hacer el cambio de la variable
     public int bubbleSort(int[] arr) {
         int n = arr.length;
         int comparisons = 0; // Contador de comparaciones
