@@ -12,7 +12,6 @@ package com.mycompany.javalearn.SecondP;
  */
 
 // Notacion O(n^2) => T(n) = (n(n - 1)) / 2
-
 // Clase que ordena un arreglo de forma Selection sort: Analiza el arreglo y toma el mas pequeño y lo acomoda, luego toma el mas pequeño de los demas elementos y los acomodoa y asi se va.
 public class SelectionSort {
     

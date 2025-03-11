@@ -16,7 +16,7 @@ package com.mycompany.javalearn.SecondP;
 // Clase para ordenar un arreglo de menor a mayor usando el insertion sort: compara 2 elementos empezando por el primero y el segundo elemento y va moviendo a la derecha los mas grandes y compara cada uno
 // @Parametro array: Lista de numeros.
 public class InsertionSort {
-    int[] array = {10,9,8,7,6,5,4,3,2,1};
+    int[] array = {5,4,3,2,1};
     
     // Esta funcion ordena un arreglo
     // @Parametro numOpe: mumero de operaciones
@@ -39,12 +39,19 @@ public class InsertionSort {
             array[j + 1] = key;
             //numOpe += 1;
             //System.out.println(array);
+            
+            
+            for (int k = 0;k < length;k++) {
+                System.out.print(" " + array[k]);
+            }
+            
+            System.out.println("-");
         }
         
         for (int i = 0; i < array.length; i++) {
             int j = array[i];
             System.out.println(j);
-            //System.out.println("Operaciones: " + numOpe); 
+            //System.out.println("Operaciones: " + numOpe);
         }
         System.out.println("Operaciones: " + numOpe);
         //System.out.println("Final" + array);

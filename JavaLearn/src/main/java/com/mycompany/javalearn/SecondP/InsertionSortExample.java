@@ -23,7 +23,6 @@ public class InsertionSortExample {
                 //j = j - 1;
                 operaciones++;
             }
-            arr[j + 1] = key;
         }
         
         System.out.println("Numero de operaciones: " + operaciones);
