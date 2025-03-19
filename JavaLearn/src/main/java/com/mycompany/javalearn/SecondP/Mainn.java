@@ -4,12 +4,16 @@
  */
 package com.mycompany.javalearn.SecondP;
 
+import java.util.Scanner;
+
 /**
  *
  * @author jorge
  */
 public class Mainn {
     public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
     
         //InsertionSort objInsertionSort = new InsertionSort();
         //objInsertionSort.sort();
@@ -21,9 +25,9 @@ public class Mainn {
         //objSelectionSort.selectionSort(arr);
         //System.out.println("Numero de operaciones: " + objSelectionSort.selectionSort(arr));
         
-        BubbleSort objBubbleSort = new BubbleSort();
-        objBubbleSort.bubbleSort(arr);
-        System.out.println("El numero de operaciones es: " + objBubbleSort.bubbleSort(arr));
+        //BubbleSort objBubbleSort = new BubbleSort();
+        //objBubbleSort.bubbleSort(arr);
+        //System.out.println("El numero de operaciones es: " + objBubbleSort.bubbleSort(arr));
         
         
         
@@ -40,5 +44,22 @@ public class Mainn {
         //bubbleSortExample objBubbleSortExample = new bubbleSortExample();
         //objBubbleSortExample.bubbleSort(arrr);
         //System.out.println("Número de comparaciones: " + objBubbleSortExample.bubbleSort(arrr));
+        
+        
+        //BusquedaSecuencial objBusquedaSecuencial = new BusquedaSecuencial();
+        //System.out.println("Dame el numero a buscar: ");
+        //int num = sc.nextInt();
+        //objBusquedaSecuencial.busqueda(4);
+        //System.out.println("Se encontro en el indice: " + objBusquedaSecuencial.busqueda(num));
+        
+        
+        
+        //BusquedaBinaria objBusquedaBinaria = new BusquedaBinaria();
+        //objBusquedaBinaria.busquedaBinaria(arrr, 4);
+        //System.out.println("Se encontro el numero en el indice: " + objBusquedaBinaria.busquedaBinaria(arrr, 1));
+        
+        
+        HashMapp objHashMapp = new HashMapp();
+        objHashMapp.hash();
     }
 }

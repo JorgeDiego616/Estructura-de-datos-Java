@@ -6,10 +6,12 @@ com\mycompany\javalearn\Excercise3.class
 com\mycompany\javalearn\ArrayListExample.class
 com\mycompany\javalearn\TriangleArea.class
 com\mycompany\javalearn\SecondP\SelectionSortExample.class
+com\mycompany\javalearn\SecondP\HashMapp.class
 com\mycompany\javalearn\SecondP\InsertionSort.class
 com\mycompany\javalearn\Piedrapapeltijera.class
 com\mycompany\javalearn\CircleArea.class
 com\mycompany\javalearn\Excercise2.class
+com\mycompany\javalearn\SecondP\BusquedaBinaria.class
 com\mycompany\javalearn\JavaLearn.class
 com\mycompany\javalearn\Scan.class
 com\mycompany\javalearn\SalesWithDiscount.class
@@ -23,3 +25,4 @@ com\mycompany\javalearn\Excercise1.class
 com\mycompany\javalearn\SecondP\bubbleSortExample.class
 com\mycompany\javalearn\Arreglos.class
 com\mycompany\javalearn\SecondP\SelectionSort.class
+com\mycompany\javalearn\SecondP\BusquedaSecuencial.class
