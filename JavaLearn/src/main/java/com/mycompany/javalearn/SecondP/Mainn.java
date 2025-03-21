@@ -61,5 +61,9 @@ public class Mainn {
         
         HashMapp objHashMapp = new HashMapp();
         objHashMapp.hash();
+        
+        
+        IndexedSearch objIndexedSearch = new IndexedSearch();
+        objIndexedSearch.search();
     }
 }
