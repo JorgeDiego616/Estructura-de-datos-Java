@@ -59,11 +59,15 @@ public class Mainn {
         //System.out.println("Se encontro el numero en el indice: " + objBusquedaBinaria.busquedaBinaria(arrr, 1));
         
         
-        HashMapp objHashMapp = new HashMapp();
-        objHashMapp.hash();
+        //HashMapp objHashMapp = new HashMapp();
+        //objHashMapp.hash();
         
         
         IndexedSearch objIndexedSearch = new IndexedSearch();
         objIndexedSearch.search();
+        
+        
+        IndexedSearch2 objIndexedSearch2 = new IndexedSearch2();
+        objIndexedSearch2.buscar();
     }
 }
