@@ -63,11 +63,19 @@ public class Mainn {
         //objHashMapp.hash();
         
         
-        IndexedSearch objIndexedSearch = new IndexedSearch();
-        objIndexedSearch.search();
+        //IndexedSearch objIndexedSearch = new IndexedSearch();
+        //objIndexedSearch.search();
         
         
-        IndexedSearch2 objIndexedSearch2 = new IndexedSearch2();
-        objIndexedSearch2.buscar();
+        //IndexedSearch2 objIndexedSearch2 = new IndexedSearch2();
+        //objIndexedSearch2.buscar();
+        
+        
+        MergeSort objMergeSort = new MergeSort();
+        int[] array = {38, 27, 43, 10}; // Arreglo a ordenar
+        
+        int left = 0;
+        int right = array.length - 1;
+        objMergeSort.mergeSort(array, left, right);
     }
 }
