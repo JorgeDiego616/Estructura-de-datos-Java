@@ -25,7 +25,7 @@ public class InsertionSort {
     // @Parametro j: uno anterior al key
     public void sort() {
         int numOpe = 0;
-        int length = array.length;
+        int length = array.length; 
         for(int i = 1;i < length; i++) {
             int key = array[i];
             int j = i-1;

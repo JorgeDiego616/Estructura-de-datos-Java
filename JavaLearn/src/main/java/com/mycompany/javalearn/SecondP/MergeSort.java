@@ -19,14 +19,14 @@ public class MergeSort {
             System.out.println(right); // 3
             int mid = left + (right - left) / 2;
             System.out.println("mid " + mid); // 1
-            operationCount++; // Contar la división del arreglo
+            //operationCount++; // Contar la división del arreglo
 
             mergeSort(arr, left, mid);  // Ordenar la primera mitad
             mergeSort(arr, mid + 1, right);  // Ordenar la segunda mitad
 
             merge(arr, left, mid, right);  // Combinar las mitades
         }
-        
+        System.out.println("Cantidad total de operaciones realizadas: " + operationCount);
     }
 
     // Función para fusionar dos subarreglos ordenados
@@ -44,13 +44,13 @@ public class MergeSort {
         }
         for (int j = 0; j < n2; j++) {
             rightArray[j] = arr[mid + 1 + j];
-            operationCount++;
+            //operationCount++;
         }
 
         // Fusionamos las dos mitades ordenadas
         int i = 0, j = 0, k = left;
         while (i < n1 && j < n2) {
-            operationCount++; // Contar comparación en el merge
+            //operationCount++; // Contar comparación en el merge
             if (leftArray[i] <= rightArray[j]) {
                 arr[k] = leftArray[i];
                 i++;
@@ -59,7 +59,7 @@ public class MergeSort {
                 j++;
             }
             k++;
-            operationCount++; // Contar asignación en el merge
+            //operationCount++; // Contar asignación en el merge
         }
 
         // Copiar los elementos restantes de leftArray[], si hay alguno
@@ -67,7 +67,7 @@ public class MergeSort {
             arr[k] = leftArray[i];
             i++;
             k++;
-            operationCount++; // Contar asignaciones restantes
+            //operationCount++; // Contar asignaciones restantes
         }
 
         // Copiar los elementos restantes de rightArray[], si hay alguno
@@ -75,10 +75,12 @@ public class MergeSort {
             arr[k] = rightArray[j];
             j++;
             k++;
-            operationCount++;
+            //operationCount++;
         }
+        operationCount++;
   
         //System.out.println("Arreglo ordenado: " + Arrays.toString(arr));
-        //System.out.println("Cantidad total de operaciones realizadas: " + operationCount);
+        
     }
+    
 }
