@@ -71,11 +71,12 @@ public class Mainn {
         //objIndexedSearch2.buscar();
         
         
-        MergeSort objMergeSort = new MergeSort();
-        int[] array = {38, 27, 43, 10}; // Arreglo a ordenar
+        //MergeSort objMergeSort = new MergeSort();
+        //int[] array = {38, 27, 43, 10}; // Arreglo a ordenar
         
-        int left = 0;
-        int right = array.length - 1;
-        objMergeSort.mergeSort(array, left, right);
+        //int left = 0;
+        //int right = array.length - 1;
+        //objMergeSort.mergeSort(array, left, right);
+        
     }
 }

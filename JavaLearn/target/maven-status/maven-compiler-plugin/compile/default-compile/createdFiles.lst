@@ -3,6 +3,7 @@ com\mycompany\javalearn\GradeCalculationPartial.class
 com\mycompany\javalearn\StudentGrades.class
 com\mycompany\javalearn\Excercise5.class
 com\mycompany\javalearn\Excercise3.class
+com\mycompany\tercerp\Pila.class
 com\mycompany\javalearn\ArrayListExample.class
 com\mycompany\javalearn\TriangleArea.class
 com\mycompany\javalearn\SecondP\IndexedSearch2.class
@@ -18,6 +19,9 @@ com\mycompany\javalearn\JavaLearn.class
 com\mycompany\javalearn\SecondP\IndexedSearch.class
 com\mycompany\javalearn\Scan.class
 com\mycompany\javalearn\SalesWithDiscount.class
+com\mycompany\tercerp\ListaEnlazadasimpleee$Node.class
+com\mycompany\tercerp\ListaEnlazadasimpleee.class
+com\mycompany\tercerp\TercerP.class
 com\mycompany\javalearn\SecondP\InsertionSortExample.class
 com\mycompany\javalearn\UserData.class
 com\mycompany\javalearn\SecondP\Mainn.class
@@ -29,3 +33,4 @@ com\mycompany\javalearn\SecondP\bubbleSortExample.class
 com\mycompany\javalearn\Arreglos.class
 com\mycompany\javalearn\SecondP\SelectionSort.class
 com\mycompany\javalearn\SecondP\BusquedaSecuencial.class
+com\mycompany\tercerp\Pila2.class
