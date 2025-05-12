@@ -32,10 +32,20 @@ public class TercerP {
         //list.display();
         
         
-        Pila2 objPila2 = new Pila2();
-        objPila2.push("Tazo dorado");
-        objPila2.push("Tazo exclusivo");
-        objPila2.pop();
-        objPila2.peekfinal();
+        
+        //Pila2 objPila2 = new Pila2();
+        //objPila2.push("Tazo dorado");
+        //objPila2.push("Tazo exclusivo");
+        //objPila2.pop();
+        //objPila2.peekfinal();
+        
+        
+        
+        Cola2 objCola2 = new Cola2();
+        objCola2.enqueve("Sergio");
+        objCola2.enqueve("Mario");
+        objCola2.peek();
+        objCola2.dequeve();
+        objCola2.peek();
     }
 }
