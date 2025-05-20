@@ -77,5 +77,14 @@ public class TercerP {
         // Iniciar DFS desde el nodo 1
         System.out.println("Recorrido DFS desde el nodo 1:");
         objGrafo.dfs(1, new HashSet<>());
+        
+        
+        
+        ListaCircular objListaCircular = new ListaCircular();
+        objListaCircular.agregar(1);
+        objListaCircular.agregar(2);
+        objListaCircular.agregar(3);
+        objListaCircular.agregar(4);
+        objListaCircular.mostrar();
     }
 }
